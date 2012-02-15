@@ -1,12 +1,12 @@
 body { margin: 0px; }
-canvas { position: absolute; top: 30px; }
+canvas { position: absolute; top: 30px; left: 100px; }
 #actions { z-index: 10; }
 
 #tile-selection { z-index: 12; }
 
 .tile-selection-row {
 	height: 24px;
-	width: 104px;
+	width: 130px;
 }
 
 .tile-selection-color {
@@ -16,5 +16,5 @@ canvas { position: absolute; top: 30px; }
 	border: 1px solid #333;
 	position: relative;
 	float: left;
-	z-index: 12;
+	z-index: 15;
 }

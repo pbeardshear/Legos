@@ -54,7 +54,10 @@ var Tile = function (x, y, size, height, style) {
 	
 	Tile.prototype.apply({
 		toString: function () {
-			return this.x.toString() + '-' + this.y.toString() + '-' + this.height.toString();
+			var x = this.x || '',
+				y = this.y || '',
+				height = this.height || '';
+			return x.toString() + '-' + y.toString() + '-' + height.toString();
 		},
 		clone: function () {
 			return new Tile(this.x, this.y, this.height);

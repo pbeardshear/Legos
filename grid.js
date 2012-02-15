@@ -65,7 +65,7 @@ var Grid = (function () {
 			for (var i = 0; i < maxHeight; i++) {
 				var canvas = document.createElement('canvas');
 				canvas.id = 'grid-action-' + i;
-				canvas.setAttribute('height', (gridSize*2) + 'px');
+				canvas.setAttribute('height', (gridSize) + 'px');
 				canvas.setAttribute('width', (gridSize*2) + 'px');
 				canvas.setAttribute('style', 'z-index:' + i + ';');
 				container.appendChild(canvas);
